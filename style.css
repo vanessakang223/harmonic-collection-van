@@ -1,6 +1,6 @@
 body {
-    display: flex;
     wrap: nowrap;
+    display: flex;
 }
 .blue{
     font-size: x-large;
@@ -84,8 +84,4 @@ div.fixed {
       line-height: 190%;
       text-decoration: none;
     }
-    .links
-    {
-      font-size: 8px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+ 
