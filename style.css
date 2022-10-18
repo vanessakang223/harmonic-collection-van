@@ -40,6 +40,10 @@ a{
   transition-duration: 0.7s;
   background-color: gainsboro;
             }
+ .button6:hover {
+  transition-duration: 0.7s;
+  background-color: gainsboro;
+                        }
  .bodytext {
             color: black;
             font-size: 16px;
