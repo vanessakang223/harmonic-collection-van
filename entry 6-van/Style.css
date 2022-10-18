@@ -1,0 +1,86 @@
+.vantext{
+  color: rgb(0, 0, 0);
+  font-family:"Helvetica";
+  font-weight: bold;
+  font-size: 20vw;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  margin-top: 90px;
+  line-height: 60%;
+    text-align: right;
+  
+}
+.kangtext{
+  color: rgb(0, 0, 0);
+  font-family:"Helvetica";
+  font-weight: bold;
+  font-size: 20vw;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;  
+  text-align: right;
+}
+.manhattan{
+  color: rgb(0, 0, 0);
+  font-family:"Helvetica";
+  font-size: 14px;
+  line-height: 8px;
+  text-align: left;
+}
+.manhattanny{
+  color: rgb(0, 0, 0);
+  font-family:"Helvetica";
+  font-size: 14px;
+  line-height: 8px;
+  text-align: center;
+}
+body{
+  background-color:rgb(245, 246, 247);
+}
+h1{
+  font-family:"Helvetica";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 13vw;
+}
+.sideharmonic {
+  font-family:"Helvetica";
+  color: rgb(0, 0, 0);
+  align: right;
+  position: absolute;
+  right:30px;
+  top:15px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2{
+  border-bottom: 3px solid black;
+}
+.textalign{
+  text-align: justify;
+}
+.line1
+{
+  /* If I want the text to be on the top right hand side/* align: right; */
+  /* position: absolute;
+  right:0px;
+  top:0px; */
+  line-height: 190%;
+  text-decoration: none;
+}
