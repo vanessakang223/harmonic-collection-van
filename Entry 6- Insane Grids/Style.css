@@ -5,7 +5,9 @@ body {
 {
   margin-left: 10%; 
   width: 50%; 
-  
+}
+.h1{
+  text-decoration: underline;
 }
 .margin1
 {
@@ -24,71 +26,47 @@ span{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
 }
-.heading{
-  font-size: 160px;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 18vh;
-}
 .down{
   top: 30vh;
 }
+
 .bluecolorblock {
   background-color: rgb(0, 0, 255);
-  opacity: 60%;
-  z-index: -2;
-  transform: rotate(40deg);
+  opacity: 90%;
+  z-index: -100;
   position: absolute;
-  top: -30px;
-  height: 4000px;
+  top: 0px;
+  height: 2000px;
   left: 0;
-  width: 15%;  
+  width: 7%;  
+  rotate: 30;
 }
-/* .pinkcolorblock {
+.pinkcolorblock {
   background-color: rgb(255, 0, 230);
-  opacity: 60%;
+  opacity: 70%;
   position: absolute;
   top: 0px;
   height: 2000px;
   left: 80;
-  width: 9%;  
-  z-index: -5;
-} */
+  width: 20%;  
+  rotate: 30;
+}
 .yellowcolorblock {
-  background-color: rgb(255, 255, 0);
-  opacity: 100%;
-  transform: rotate(80deg);
+  background-color: rgb(251, 255, 0);
+  opacity: 90%;
+  transform: rotate(10deg);
   position: absolute;
   top: 0px;
-  height: 2600px;
-  width: 15%;  
-  z-index: -3;
+  height: 2000px;
+  left: 300;
+  width: 10%;  
 }
-
-#circle {
-  width: 150px;
-  height: 150px;
-  background: rgb(255, 247, 0);
-  border-radius: 50%
-}
-  
-#triangle-topright {
-  
-  border-top: 300px solid rgb(255, 0, 230);
-  opacity: 90%;
-  border-left: 300px solid transparent;
-  right: 0;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  }
-
 .marginsnew 
         {
           position: relative;
           display: block;
           padding-top:0px;
-          width: 40vw;
+          width: 35vw;
           /* margin-right: 80px; */
           font-size: 13px;
           line-height: 1.5;
