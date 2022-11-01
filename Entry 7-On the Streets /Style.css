@@ -4,6 +4,11 @@ body {
 
 @font-face { font-family: helvetica; font-weight: bold; src: url('Helvetica');}
 
+.header{
+    display: flex;
+    height: 35px;
+    width: 100%;
+  }
 .wrapper {
   display: grid;
   grid-gap: 10px;
@@ -14,6 +19,7 @@ body {
 .inline{
   display: inline;
   margin-bottom: 0;
+  text-align: center;
 }
 .margintop{
   margin-top: 0;
