@@ -12,7 +12,11 @@ body {
   color: #444;
 }
 .inline{
-  display: block;
+  display: inline;
+  margin-bottom: 0;
+}
+.margintop{
+  margin-top: 0;
 }
 .box {
   background-color: #444;
@@ -106,7 +110,17 @@ h3{
   transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 
+.square {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(0, 0, 255);
+}
+
 #circle {
+  float: right;
+}
+
+#square {
   float: right;
 }
 
@@ -117,6 +131,27 @@ h3{
 
 .zoomcircle:hover {
   -ms-transform: scale(1.8); 
-  -webkit-transform: scale(1.8); 
-  transform: scale(1.2); 
+  -webkit-transform: scale(1.8);
+  transform: scale(1.4); 
+}
+
+.zoomsquare {
+  transition: transform .2s;
+  /* margin: 0 auto; */
+}
+
+.zoomsquare:hover {
+  /* -ms-transform: scale(1.8); 
+  -webkit-transform: scale(1.8); */
+  transform: scale(1.4); 
+}
+
+.widthadjustment{
+  width: 50%;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30pt;
+  font-weight: 600;
 }
