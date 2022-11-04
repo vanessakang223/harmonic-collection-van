@@ -25,14 +25,18 @@ span{
   font-size: medium;
 }
 .heading{
-  font-size: 160px;
+  font-size: 130px;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-transform: uppercase;
   line-height: 18vh;
  }
  .heading2{
   font-size: 160px;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   line-height: 18vh;
  border-top: 16vh;
@@ -198,4 +202,25 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30pt;
     font-weight: 600;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul{
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+  }
+
+  .flex-box{
+    display:flex;
+    justify-content: space-between;
+    font-size: 12pt;
   }
