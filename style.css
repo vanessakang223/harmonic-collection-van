@@ -88,4 +88,12 @@ div.fixed {
       line-height: 190%;
       text-decoration: none;
     }
- 
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      padding: 20px;
+      font-size: 16px;
+    }
