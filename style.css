@@ -97,3 +97,6 @@ div.fixed {
       padding: 20px;
       font-size: 16px;
     }
+    .font{
+      font-family: Arial, Helvetica, sans-serif;
+    }
