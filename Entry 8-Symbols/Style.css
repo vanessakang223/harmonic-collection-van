@@ -69,7 +69,7 @@ a:visited {
 }
 
 a:hover {
-  color:rgb(182, 40, 192);
+  color:gray;
   background-color: transparent;
   ;
   }
@@ -209,3 +209,32 @@ h3{
   .arrowmargin{
     margin-bottom:0px
   }
+
+  section:hover {
+    transform: scale(105%);
+  }
+  
+  section:nth-child(2) {
+    transition-duration: 2s, 1s;
+    transition-property: color, transform;
+    transition-timing-function: linear, ease-in-out;
+    will-change: transform; /* Improves the scaling performance! */
+  }
+
+.heading{
+  margin-top: 1em;
+  border-radius: 60%;
+  border-style: solid;
+  padding: 2em;
+  width: 10em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  padding-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
