@@ -10,11 +10,40 @@
     text-align: right; */
     font-size: 15vw;
   line-height: 1.6;
-  text-align: justify;
+  /* text-align: justify; */
   font-family: 'IBM Plex Mono', monospace;
   color: rgb(0, 0, 255);
+  margin-bottom: 0px;
+  margin-top: 0px;
   
   }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 50px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+}
+</style>
+
+  .vanA{
+    line-height: 1.6;
+    /* text-align: justify; */
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(0, 0, 255);
+    margin-bottom: 0px;
+    font-size: 15vw;
+    margin-top: 0px;
+    margin-left: 25vw;
+    
+    }
 
 .kangtext{
   /* color: rgb(0, 0, 0);
