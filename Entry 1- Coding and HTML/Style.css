@@ -126,3 +126,15 @@ div.fixed {
       background-color: transparent;
       ;
       }
+
+      h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30pt;
+        font-weight: 600;
+      }
+      
+      .flex-box{
+        display:flex;
+        justify-content: space-between;
+        font-size: 12pt;
+      }      
