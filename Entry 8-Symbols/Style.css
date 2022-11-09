@@ -1,5 +1,6 @@
 body {
   margin: 40px;
+  margin-top: 40px;
 }
 
 @font-face { font-family: helvetica; font-weight: bold; src: url('Helvetica');}
@@ -9,13 +10,7 @@ body {
     height: 35px;
     width: 100%;
   }
-.wrapper {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 100px 100px 100px;
-  background-color: #fff;
-  color: #444;
-}
+
 .inline{
   display: inline;
 }
@@ -190,22 +185,6 @@ h3{
     transition-timing-function: linear, ease-in-out;
     will-change: transform; /* Improves the scaling performance! */
   }
-  nav{
-    display: flex;
-    background-color: #fff;
-    padding: 10px;
-  }
-  nav a{
-  flex: auto;
-  display: inline-block;
-  text-align: left;
-  position: relative;
-  color: black;
-  margin-left:50px;
-  margin-right: 0px;
-  padding:0px;
-  text-decoration: none;
-  }
 
   .arrowmargin{
     margin-bottom:0px
@@ -238,6 +217,13 @@ h3{
   top: 0;
   padding: 20px;
   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
 }
 
 ul{

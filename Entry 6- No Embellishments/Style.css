@@ -1,16 +1,7 @@
-
 body {
+  margin: 40px;
 }
-.margins 
-{
-  margin-left: 10%; 
-  width: 50%; 
-  
-}
-.margin1
-{
-    margin-left: 10%;  
-            }
+
  .bodytext {
             color: black;
             font-size: 16px;
@@ -78,8 +69,8 @@ span{
 }
 
 #circle {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   background: rgb(255, 247, 0);
   border-radius: 50%
 }
@@ -176,6 +167,7 @@ display: none;
     display: none;
     }
 }
+
 a:link {
   color: rgb(111, 108, 98);
   background-color: transparent;
@@ -188,7 +180,7 @@ a:visited {
 }
 
 a:hover {
-  color:rgb(182, 40, 192);
+  color:gray;
   background-color: transparent;
   ;
   }
@@ -203,15 +195,21 @@ a:hover {
     font-size: 30pt;
     font-weight: 600;
   }
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-  }
+    
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
   
   ul{
     padding-left: 0;
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
   }
 
   h1{
