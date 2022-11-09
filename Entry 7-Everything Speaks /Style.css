@@ -76,23 +76,6 @@ body {
           font-family: 'IBM Plex Mono', monospace;
           color: black;
 }
-
-a:link {
-  color: rgb(111, 108, 98);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color:rgb(0, 0, 0) ;
-  background-color: transparent;;
-}
-
-a:hover {
-  color:rgb(182, 40, 192);
-  background-color: transparent;
-  ;
-  }
 h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80pt;
@@ -161,3 +144,57 @@ h3{
   font-size: 30pt;
   font-weight: 600;
 }
+
+
+    
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  font-size: 14px;
+}
+    ul{
+      padding-left: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+      
+    nav a{
+      flex: auto;
+      display: inline-block;
+      text-align: left;
+      position: relative;
+      color: black;
+      margin-left:50px;
+      margin-right: 0px;
+      padding:0px;
+      text-decoration: none;
+      }
+
+      /* nav{
+        display: flex;
+        background-color: #fff;
+        padding: 10px;
+        text-decoration: none;
+      }
+     */
+
+     a:link {
+      color: rgb(111, 108, 98);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color:rgb(0, 0, 0) ;
+      background-color: transparent;;
+    }
+    
+    a:hover {
+      color:gray;
+      background-color: transparent;
+      ;
+      }

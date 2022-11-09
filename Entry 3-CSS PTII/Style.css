@@ -79,3 +79,23 @@ div.fixed {
       font-family: 'Times New Roman', Times, serif;
     }
  
+    body {
+      background-color: #ccddff;
+      animation: colorSwap 12s ease-in-out;
+    }
+    
+    @keyframes colorSwap {
+      0% {
+        background-color: default;
+      }
+     
+      50% {
+        background-color: #ffccff;
+      }
+      75% {
+        background-color: #ffffcc;
+      }
+      100% {
+        background-color: #ddccff;
+      }
+    }
