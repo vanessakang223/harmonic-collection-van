@@ -49,8 +49,19 @@ ul{
 }
 p{
   padding-left: 40px;
-}
-img{
-  transform: rotate(90deg);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
 }
 
+.neg{
+  text-align: right; 
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span{
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+  transform: rotate(90deg);
+}
